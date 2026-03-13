@@ -1,36 +1,16 @@
-print("Hello AI Journey")
+print("DevOps / MLOps Journey")
 
-# változók
-name = "AI Engineer Journey"
-hours_per_day = 3
-goal_year = 2027
+name = "Future DevOps Engineer"
+study_hours = 3
+target_year = 2028
 
 print(name)
-print(hours_per_day)
-print(goal_year)
+print(study_hours)
+print(target_year)
 
-# számolás
-daily_hours = 3
-days_per_year = 365
+tools = ["linux", "docker", "kubernetes"]
 
-total_hours = daily_hours * days_per_year
+print(tools)
 
-print("Study hours in a year:", total_hours)
-
-# lista
-species = ["fox", "deer", "hawk", "rabbit"]
-
-print(species)
-print("First species:", species[0])
-
-# for loop
-for animal in species:
-    print("Observed:", animal)
-
-# mini feladat
-species = ["fox", "deer", "hawk", "rabbit", "fox"]
-
-unique_species = set(species)
-
-print("Total observations:", len(species))
-print("Unique species:", len(unique_species))
+for tool in tools:
+    print("Learning:", tool)
